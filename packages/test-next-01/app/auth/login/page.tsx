@@ -1,4 +1,6 @@
-import styles from "./page.module.css";
+import styles from "../../example/page.module.css";
+
+// import styles from "./page.module.css";
 
 export default async function Index() {
   /*
@@ -10,24 +12,11 @@ export default async function Index() {
     <div className={styles.page}>
       <div className="wrapper">
         <div className="container">
-          {/* hero section */}
-          <div id="heroTitle" className="hero-section">
-            <div className="left-section">
-              <section>
-                <h1>
-                  <span>MUZ</span>
-                  Portfolio Site 👋
-                </h1>
-              </section>
-
-              <section>
-                <p>The explanation of the site</p>
-              </section>
-            </div>
-
-            <div className="right-section">
-              <p>The hero image ? </p>
-            </div>
+          <div id="welcome">
+            <h1>
+              <span> Hello there, </span>
+              Welcome test-next-01 👋
+            </h1>
           </div>
 
           <div id="hero" className="rounded">
@@ -335,7 +324,6 @@ export default async function Index() {
           <div id="commands" className="rounded shadow">
             <h2>Next steps</h2>
             <p>Here are some things you can do with Nx:</p>
-
             <details>
               <summary>
                 <svg
@@ -360,7 +348,6 @@ export default async function Index() {
                 nx g @nx/next:component button --project=ui
               </pre>
             </details>
-
             <details>
               <summary>
                 <svg
@@ -380,7 +367,6 @@ export default async function Index() {
               </summary>
               <pre>nx graph</pre>
             </details>
-
             <details>
               <summary>
                 <svg
@@ -408,6 +394,23 @@ export default async function Index() {
               </pre>
             </details>
           </div>
+
+          <p id="love">
+            Carefully crafted with
+            <svg
+              fill="currentColor"
+              stroke="none"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+          </p>
         </div>
       </div>
     </div>

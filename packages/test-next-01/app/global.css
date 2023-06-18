@@ -74,6 +74,7 @@ pre {
   padding-right: 1rem;
   color: rgba(55, 65, 81, 1);
   width: 100%;
+  /* background-color: aqua; */
 }
 #welcome {
   margin-top: 2.5rem;
@@ -397,4 +398,41 @@ summary svg {
   #middle-content {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
+}
+
+/* CSS for root route */
+#heroTitle {
+  margin-top: 2.5rem;
+  margin-left: 0.5vw;
+}
+#heroTitle .hero-section {
+  flex-direction: row;
+  background-color: aqua;
+  flex: 1;
+}
+#heroTitle .left-section {
+  background-color: burlywood;
+}
+#heroTitle .right-section {
+  background-color: coral;
+}
+#heroTitle p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-weight: 100;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+#heroTitle h1 {
+  font-size: 3rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1;
+}
+#heroTitle span {
+  display: block;
+  font-size: 1.875rem;
+  font-weight: 300;
+  line-height: 2.25rem;
+  margin-bottom: 0.5rem;
 }
