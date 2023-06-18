@@ -41,3 +41,6 @@ Thumbs.db
 # nx access token
 nx.json
 nx-cloud.env
+
+# Next.js
+.next
